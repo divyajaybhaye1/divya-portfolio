@@ -75,8 +75,10 @@ function App() {
           <a href="#contact">Contact</a>
         </div>
 
+        {/* DOWNLOAD RESUME */}
+
         <a
-          href="/DIvya_J_Resume_.pdf"
+          href="./DIvya_J_Resume_.pdf"
           download="DIvya_J_Resume_.pdf"
           className="nav-button"
         >
