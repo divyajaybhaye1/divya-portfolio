@@ -78,12 +78,12 @@ function App() {
         {/* DOWNLOAD RESUME */}
 
         <a
-          href="./DIvya_J_Resume_.pdf"
+        href={`${import.meta.env.BASE_URL}DIvya_J_Resume_.pdf`}
           download="DIvya_J_Resume_.pdf"
-          className="nav-button"
-        >
-          Download Resume ↗
-        </a>
+            className="nav-button"
+>
+            Download Resume ↗
+</a>
 
       </nav>
 
